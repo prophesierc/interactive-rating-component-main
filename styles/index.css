@@ -1,0 +1,30 @@
+:root{
+    /* Colors */
+
+    /* Primary */
+    --clr-primary-orange: hsl(25, 97%, 53%);
+
+    /* Neutral */
+    --clr-neutral-white: hsl(0, 0%, 100%);
+    --clr-neutral-light-grey: hsl(217, 12%, 63%);
+    --clr-neutral-dark-blue: hsl(213, 19%, 18%);
+    --clr-neutral-very-bark-blue: hsl(216, 12%, 8%);
+
+    /* Typography */
+    
+    /* Body Copy */
+    --fs-paragraph: 15px;
+
+    /* Font */
+    --ff-Overpass: 'Overpass';
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
