@@ -15,14 +15,16 @@
 </head>
 <body>
   <main>
-    <!-- <div class="attribution">
+
+    <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </div> -->
-    <!-- Rating state start -->
+      Coded by <a href="https://github.com/prophesierc" target="_blank">ProphesierC</a>.
+    </div>
+
     <form class="container">
       
       <div class="content">
+        
         <div class="star-container">
           <img src="./images/icon-star.svg" height="15" width="15" id="star-image">
         </div>
@@ -53,31 +55,37 @@
         </div>
 
           <div class="submit-button-container">
-            <button type="submit" id="submit-button" value="Submit">SUBMIT</button>
+            <button type="button" id="submit-button" value="Submit">SUBMIT</button>
           </div>
 
-          <!-- Rating state end -->
-
-          <!-- Thank you state start -->
-          <dialog class="modal">
-
-            <img class="modal-image">
-            <p class="amount-selected-text">You selected <!-- Add rating here --> out of 5</p>
-
-            <h2>Thank you!</h2>
-
-            <p class="modal-text-content">
-              We appreciate you taking the time to give a rating. If you ever need more support, 
-              don’t hesitate to get in touch!
-            </p>
-
-          </dialog>
-          <!-- Thank you state end -->
-
-          
-        
       </div>
+
     </form>
+    
+    <dialog class="modal">
+
+      <div class="modal-content">
+
+        <div class="modal-image-container">
+          <img src="./images/illustration-thank-you.svg" width="162" height="108" id="modal-image">
+        </div>
+
+        <div class="amount-container">
+          <p class="amount-selected-text">You selected <!-- Add rating here --> out of 5</p>
+        </div>
+
+        <h2>Thank you!</h2>
+
+        <p class="modal-text-content">
+          We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+
+    </dialog>
+
+
   </main>
+  
 </body>
 </html>
