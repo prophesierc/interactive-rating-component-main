@@ -15,10 +15,18 @@
 </head>
 <body>
   <main>
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
     <!-- Rating state start -->
     <form class="container">
+      
       <div class="content">
-        <img src="./images/icon-star.svg" height="15" width="15" id="star-image">
+        <div class="star-container">
+          <img src="./images/icon-star.svg" height="15" width="15" id="star-image">
+        </div>
+
         <h1>How did we do?</h1>
         <p id="main-text">
           Please let us know how we did with your support request. All feedback is appreciated 
@@ -26,14 +34,27 @@
         </p>
 
         <div class="rating-container">
-          <p id="rating-button-1">1</p> 
-          <p id="rating-button-2">2</p>
-          <p id="rating-button-3">3</p> 
-          <p id="rating-button-4">4</p>
-          <p id="rating-button-5">5</p>
+
+          <input type="radio" id="rating-button-1" name="rating-selector" value="1">
+            <label for="rating-button-1">1</label>
+
+          <input type="radio" id="rating-button-2" name="rating-selector" value="2">
+            <label for="rating-button-2">2</label>
+
+          <input type="radio" id="rating-button-3" name="rating-selector" value="3">
+            <label for="rating-button-3">3</label>
+
+          <input type="radio" id="rating-button-4" name="rating-selector" value="4">
+            <label for="rating-button-4">4</label>
+
+          <input type="radio" id="rating-button-5" name="rating-selector" value="5">
+            <label for="rating-button-5">5</label>
+
         </div>
 
-          <button type="submit" id="submit-button" value="Submit">Submit</button>
+          <div class="submit-button-container">
+            <button type="submit" id="submit-button" value="Submit">SUBMIT</button>
+          </div>
 
           <!-- Rating state end -->
 
@@ -54,10 +75,7 @@
           <!-- Thank you state end -->
 
           
-        <div class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Your Name Here</a>.
-        </div>
+        
       </div>
     </form>
   </main>
